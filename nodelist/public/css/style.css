@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: lightblue;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: blue;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+input{
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px orangered;
+    padding-left: 1rem;
+    color: rgb(21, 0, 255);
+    font-size: 1rem;
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(24, 22, 22);
+}
+
+button{
+    width: 200px;
+    height: 2rem;
+    margin-left: 105%;
+    
+    background: orangered;
+    border: none ;
+    right: 50%;
+    margin-top: -36px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px 0 10px 0;
+}
+
+.todo-value{
+    margin-top: 10px;
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px;
+    border: solid 2px orangered;
+    padding-left: 1rem;
+    background-color: rgb(42, 132, 165);
+    padding-top: 9px;
+
+}
+
+.todo-delete{
+    width: 200px;
+    height: 2rem;
+    margin-left: 105%;
+    
+    background: orangered;
+    border: none ;
+    right: 50%;
+    margin-top: -36px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px 0 10px 0;
+}
